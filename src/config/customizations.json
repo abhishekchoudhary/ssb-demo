@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "sample-home-shelf",
+      "label": "Home · things to try",
+      "kind": "html",
+      "scope": "home",
+      "slot": "after",
+      "order": 0,
+      "enabled": true
+    },
+    {
+      "id": "sample-post-note",
+      "label": "Posts · keep wandering",
+      "kind": "html",
+      "scope": "post",
+      "slot": "after",
+      "order": 0,
+      "enabled": true
+    },
+    {
+      "id": "sample-site-note",
+      "label": "Every page · sample note",
+      "kind": "html",
+      "scope": "all",
+      "slot": "after",
+      "order": 10,
+      "enabled": true
+    },
+    {
+      "id": "sample-components",
+      "label": "Sample component styles",
+      "kind": "css",
+      "scope": "all",
+      "slot": "before",
+      "order": 0,
+      "enabled": true
+    }
+  ]
+}

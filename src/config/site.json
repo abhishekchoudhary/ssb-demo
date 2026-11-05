@@ -1,0 +1,623 @@
+{
+  "title": "Stupid Simple Blogging",
+  "description": "Notes on making things, paying attention, and a slower kind of internet.",
+  "author": "Your name",
+  "language": "en",
+  "direction": "auto",
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/",
+      "target": "home"
+    },
+    {
+      "label": "Journal",
+      "href": "/blog/",
+      "target": "blog"
+    },
+    {
+      "label": "Explore",
+      "href": "#",
+      "children": [
+        {
+          "label": "Daylight",
+          "href": "/daylight/",
+          "target": {
+            "page": "daylight"
+          }
+        },
+        {
+          "label": "Now",
+          "href": "/now/",
+          "target": {
+            "page": "now"
+          }
+        },
+        {
+          "label": "Things to try",
+          "href": "#",
+          "children": [
+            {
+              "label": "Writing room",
+              "href": "/writing-room/",
+              "target": {
+                "page": "writing-room"
+              }
+            },
+            {
+              "label": "Field guide · PDF",
+              "href": "/field-guide/",
+              "target": {
+                "page": "field-guide"
+              }
+            }
+          ]
+        },
+        {
+          "label": "About",
+          "href": "#",
+          "children": [
+            {
+              "label": "The author",
+              "href": "/about/",
+              "target": {
+                "page": "about"
+              }
+            },
+            {
+              "label": "This sample",
+              "href": "/colophon/",
+              "target": {
+                "page": "colophon"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Gallery",
+      "href": "/gallery/"
+    },
+    {
+      "label": "Topics",
+      "href": "/tags/"
+    },
+    {
+      "label": "Search",
+      "href": "/search/"
+    }
+  ],
+  "social": [],
+  "homepage": {
+    "mode": "page",
+    "slug": "welcome"
+  },
+  "text": {
+    "skip": {
+      "value": "Skip to content",
+      "enabled": true
+    },
+    "beforeContent": {
+      "value": "Before content",
+      "enabled": true
+    },
+    "afterContent": {
+      "value": "After content",
+      "enabled": true
+    },
+    "taskComplete": {
+      "value": "Completed",
+      "enabled": true
+    },
+    "taskIncomplete": {
+      "value": "Not completed",
+      "enabled": true
+    },
+    "sectionLink": {
+      "value": "Link to section:",
+      "enabled": true
+    },
+    "snippetInteractive": {
+      "value": "Interactive version:",
+      "enabled": true
+    },
+    "snippetReadingNotice": {
+      "value": "The interactive version may require JavaScript. Its reading alternative appears above.",
+      "enabled": true
+    },
+    "profileColumn": {
+      "value": "Profile column",
+      "enabled": true
+    },
+    "backgroundPause": {
+      "value": "Pause background",
+      "enabled": true
+    },
+    "backgroundPlay": {
+      "value": "Resume background",
+      "enabled": true
+    },
+    "siteTitle": {
+      "value": "{title}",
+      "enabled": true
+    },
+    "navigationName": {
+      "value": "Main navigation",
+      "enabled": true
+    },
+    "homeEyebrow": {
+      "value": "By {author}",
+      "enabled": true
+    },
+    "homeTitle": {
+      "value": "Journal",
+      "enabled": true
+    },
+    "homeDescription": {
+      "value": "{description}",
+      "enabled": true
+    },
+    "latest": {
+      "value": "Recent posts",
+      "enabled": true
+    },
+    "entryCount": {
+      "value": "{count} entries",
+      "enabled": true
+    },
+    "entryCountOne": {
+      "value": "{count} entry",
+      "enabled": true
+    },
+    "archiveEyebrow": {
+      "value": "Archive",
+      "enabled": true
+    },
+    "archiveTitle": {
+      "value": "Journal",
+      "enabled": true
+    },
+    "archiveDescription": {
+      "value": "Field notes, small experiments, and things worth keeping.",
+      "enabled": true
+    },
+    "emptyPosts": {
+      "value": "No posts yet.",
+      "enabled": true
+    },
+    "newerPosts": {
+      "value": "← Newer",
+      "enabled": true
+    },
+    "olderPosts": {
+      "value": "Older →",
+      "enabled": true
+    },
+    "pageCount": {
+      "value": "Page {page} of {pages}",
+      "enabled": true
+    },
+    "paginationName": {
+      "value": "Pages",
+      "enabled": true
+    },
+    "searchLink": {
+      "value": "Search",
+      "enabled": true
+    },
+    "searchTitle": {
+      "value": "Search",
+      "enabled": true
+    },
+    "searchLabel": {
+      "value": "Search posts and pages",
+      "enabled": true
+    },
+    "searchButton": {
+      "value": "Search",
+      "enabled": true
+    },
+    "searchPrompt": {
+      "value": "Type to search.",
+      "enabled": true
+    },
+    "searchLoading": {
+      "value": "Loading…",
+      "enabled": true
+    },
+    "searchEmpty": {
+      "value": "No results.",
+      "enabled": true
+    },
+    "searchCount": {
+      "value": "{count} results",
+      "enabled": true
+    },
+    "searchCountOne": {
+      "value": "{count} result",
+      "enabled": true
+    },
+    "searchError": {
+      "value": "Could not load search. Browse the index below, or reload to retry.",
+      "enabled": true
+    },
+    "searchMore": {
+      "value": "Show more",
+      "enabled": true
+    },
+    "searchNoScript": {
+      "value": "Enable JavaScript to search.",
+      "enabled": true
+    },
+    "browseTitle": {
+      "value": "All posts and pages",
+      "enabled": true
+    },
+    "browseDescription": {
+      "value": "Browse the published index, or explore topics.",
+      "enabled": true
+    },
+    "browseTopics": {
+      "value": "Browse topics",
+      "enabled": true
+    },
+    "browsePrevious": {
+      "value": "← Previous page",
+      "enabled": true
+    },
+    "browseNext": {
+      "value": "Next page →",
+      "enabled": true
+    },
+    "browseEmpty": {
+      "value": "No published posts or pages yet.",
+      "enabled": true
+    },
+    "contentTitle": {
+      "value": "{title}",
+      "enabled": true
+    },
+    "contentDescription": {
+      "value": "{description}",
+      "enabled": true
+    },
+    "author": {
+      "value": "{author}",
+      "enabled": true
+    },
+    "date": {
+      "value": "{date}",
+      "enabled": true
+    },
+    "updated": {
+      "value": "Updated {date}",
+      "enabled": true
+    },
+    "readTime": {
+      "value": "{count} min read",
+      "enabled": false
+    },
+    "back": {
+      "value": "← Journal",
+      "enabled": true
+    },
+    "pageEyebrow": {
+      "value": "",
+      "enabled": true
+    },
+    "tagLabel": {
+      "value": "{tag}",
+      "enabled": true
+    },
+    "tagsEyebrow": {
+      "value": "Topics",
+      "enabled": true
+    },
+    "tagsTitle": {
+      "value": "Topics",
+      "enabled": true
+    },
+    "tagsDescription": {
+      "value": "Follow a thread through the journal.",
+      "enabled": true
+    },
+    "emptyTags": {
+      "value": "No topics yet.",
+      "enabled": true
+    },
+    "tagEyebrow": {
+      "value": "Topic",
+      "enabled": true
+    },
+    "tagTitle": {
+      "value": "{tag}",
+      "enabled": true
+    },
+    "galleryTitle": {
+      "value": "Collected moments",
+      "enabled": true
+    },
+    "galleryDescription": {
+      "value": "Drawings, little films, and a few things seen along the way.",
+      "enabled": true
+    },
+    "galleryFilter": {
+      "value": "Tags · match any",
+      "enabled": true
+    },
+    "galleryBrowse": {
+      "value": "Browse gallery",
+      "enabled": true
+    },
+    "galleryReset": {
+      "value": "Show all",
+      "enabled": true
+    },
+    "galleryEmpty": {
+      "value": "No media matches these tags.",
+      "enabled": true
+    },
+    "galleryCount": {
+      "value": "{count} items",
+      "enabled": true
+    },
+    "galleryCountOne": {
+      "value": "{count} item",
+      "enabled": true
+    },
+    "mediaTitle": {
+      "value": "{title}",
+      "enabled": true
+    },
+    "mediaCaption": {
+      "value": "{caption}",
+      "enabled": true
+    },
+    "watch": {
+      "value": "Watch video ↗",
+      "enabled": true
+    },
+    "videoOpen": {
+      "value": "Open video file",
+      "enabled": true
+    },
+    "imageFullSize": {
+      "value": "View full size",
+      "enabled": true
+    },
+    "imageClose": {
+      "value": "Close image",
+      "enabled": true
+    },
+    "imageActualSize": {
+      "value": "Actual size",
+      "enabled": true
+    },
+    "imageFit": {
+      "value": "Fit to screen",
+      "enabled": true
+    },
+    "imageOriginal": {
+      "value": "Open original",
+      "enabled": true
+    },
+    "imageDownload": {
+      "value": "Download original",
+      "enabled": true
+    },
+    "loadVideo": {
+      "value": "Load video",
+      "enabled": true
+    },
+    "externalNotice": {
+      "value": "Loads from an external provider.",
+      "enabled": true
+    },
+    "transcript": {
+      "value": "Transcript",
+      "enabled": true
+    },
+    "carouselName": {
+      "value": "Media",
+      "enabled": true
+    },
+    "pdfOpen": {
+      "value": "Open PDF",
+      "enabled": true
+    },
+    "pdfDownload": {
+      "value": "Download PDF",
+      "enabled": true
+    },
+    "pdfFallback": {
+      "value": "Can’t see the document? Open the PDF.",
+      "enabled": true
+    },
+    "documentReadingUnavailable": {
+      "value": "A full HTML reading version has not been supplied. The original PDF is available below.",
+      "enabled": true
+    },
+    "readingManifest": {
+      "value": "Reading manifest (JSON)",
+      "enabled": true
+    },
+    "agentIndex": {
+      "value": "Agent index",
+      "enabled": true
+    },
+    "documentReadingAuthored": {
+      "value": "Reading version supplied by the author. The original document follows; this version may be a summary or transcript.",
+      "enabled": true
+    },
+    "documentOriginalNotice": {
+      "value": "The original document or interactive tool follows. Interactive results may require JavaScript.",
+      "enabled": true
+    },
+    "redirectTitle": {
+      "value": "Page moved",
+      "enabled": true
+    },
+    "redirectDescription": {
+      "value": "This page has a new address.",
+      "enabled": true
+    },
+    "redirectContinue": {
+      "value": "Continue to the page",
+      "enabled": true
+    },
+    "carouselGrid": {
+      "value": "Grid",
+      "enabled": true
+    },
+    "carouselSpotlight": {
+      "value": "Spotlight",
+      "enabled": true
+    },
+    "carouselPrevious": {
+      "value": "Previous",
+      "enabled": true
+    },
+    "carouselNext": {
+      "value": "Next",
+      "enabled": true
+    },
+    "carouselPosition": {
+      "value": "{page} / {pages}",
+      "enabled": true
+    },
+    "footer": {
+      "value": "© {year} {author}",
+      "enabled": true
+    },
+    "rss": {
+      "value": "RSS feed ↗",
+      "enabled": true
+    },
+    "elsewhere": {
+      "value": "Elsewhere",
+      "enabled": true
+    },
+    "notFoundEyebrow": {
+      "value": "404",
+      "enabled": true
+    },
+    "notFoundTitle": {
+      "value": "Page not found.",
+      "enabled": true
+    },
+    "notFoundDescription": {
+      "value": "Check the address.",
+      "enabled": true
+    },
+    "notFoundBack": {
+      "value": "Home →",
+      "enabled": true
+    }
+  },
+  "branding": {
+    "logo": "/uploads/sample-logo.png",
+    "favicon": "/uploads/sample-favicon.png",
+    "showLogo": true
+  },
+  "layout": {
+    "fixedHeader": true,
+    "fixedFooter": false
+  },
+  "footer": {
+    "mode": "grid",
+    "blocks": [
+      {
+        "id": "sample-footer-logo",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "align": "left",
+        "enabled": true,
+        "type": "image",
+        "source": "/uploads/sample-logo.png",
+        "alt": "A small page mark",
+        "href": "/"
+      },
+      {
+        "id": "sample-footer-title",
+        "x": 1,
+        "y": 0,
+        "w": 5,
+        "h": 1,
+        "align": "left",
+        "enabled": true,
+        "type": "text",
+        "text": "{title}\nA little room for the things you notice.",
+        "size": "normal"
+      },
+      {
+        "id": "sample-footer-note",
+        "x": 7,
+        "y": 0,
+        "w": 5,
+        "h": 1,
+        "align": "left",
+        "enabled": true,
+        "type": "html",
+        "source": "<p><strong>Leave a little room.</strong><br>For a thought, a picture, or the next good sentence.</p>"
+      },
+      {
+        "id": "sample-footer-rss",
+        "x": 0,
+        "y": 1,
+        "w": 3,
+        "h": 1,
+        "align": "left",
+        "enabled": true,
+        "type": "icon",
+        "icon": "rss",
+        "label": "Follow by RSS",
+        "href": "/rss.xml",
+        "showLabel": true
+      },
+      {
+        "id": "sample-footer-gallery",
+        "x": 3,
+        "y": 1,
+        "w": 2,
+        "h": 1,
+        "align": "left",
+        "enabled": true,
+        "type": "icon",
+        "icon": "camera",
+        "label": "Gallery",
+        "href": "/gallery/",
+        "showLabel": true
+      },
+      {
+        "id": "sample-footer-guide",
+        "x": 5,
+        "y": 1,
+        "w": 3,
+        "h": 1,
+        "align": "left",
+        "enabled": true,
+        "type": "icon",
+        "icon": "book",
+        "label": "Field guide",
+        "href": "/field-guide/",
+        "showLabel": true
+      },
+      {
+        "id": "sample-footer-about",
+        "x": 8,
+        "y": 1,
+        "w": 4,
+        "h": 1,
+        "align": "left",
+        "enabled": true,
+        "type": "link",
+        "label": "About this sample →",
+        "href": "/colophon/"
+      }
+    ]
+  },
+  "postsPerPage": 3
+}

@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "sample-shore",
+      "type": "image",
+      "source": "/media/sample-shore.png",
+      "title": "Along the shore",
+      "alt": "An illustrated coastline in green, sand, and terracotta.",
+      "caption": "An original illustration from the sample collection.",
+      "tags": [
+        "daylight",
+        "illustration",
+        "walking"
+      ],
+      "published": true,
+      "gallery": true,
+      "transcript": ""
+    },
+    {
+      "id": "sample-window",
+      "type": "image",
+      "source": "/media/sample-window.png",
+      "title": "Four o’clock window",
+      "alt": "An arched window, warm light, and a potted plant.",
+      "caption": "An original illustration from the sample collection.",
+      "tags": [
+        "daylight",
+        "illustration",
+        "walking"
+      ],
+      "published": true,
+      "gallery": true,
+      "transcript": ""
+    },
+    {
+      "id": "sample-desk",
+      "type": "image",
+      "source": "/media/sample-desk.png",
+      "title": "An open notebook",
+      "alt": "An open notebook, a pencil, and a cup of coffee.",
+      "caption": "An original illustration from the sample collection.",
+      "tags": [
+        "daylight",
+        "illustration",
+        "making"
+      ],
+      "published": true,
+      "gallery": true,
+      "transcript": ""
+    },
+    {
+      "id": "sample-hills",
+      "type": "image",
+      "source": "/media/sample-hills.png",
+      "title": "The path ahead",
+      "alt": "A winding path between green hills.",
+      "caption": "An original illustration from the sample collection.",
+      "tags": [
+        "daylight",
+        "illustration",
+        "walking"
+      ],
+      "published": true,
+      "gallery": true,
+      "transcript": ""
+    },
+    {
+      "id": "sample-film",
+      "type": "video",
+      "source": "/media/sample-shore-film.mp4",
+      "title": "Six seconds by the shore",
+      "alt": "",
+      "caption": "A silent drift through the sample coastline illustration.",
+      "tags": [
+        "daylight",
+        "walking",
+        "film"
+      ],
+      "published": true,
+      "gallery": true,
+      "poster": "/media/sample-shore.png",
+      "captions": "/media/sample-shore-film.vtt",
+      "transcript": "A slow camera move across an illustrated green coastline. A warm sun hangs over the water. No sound."
+    },
+    {
+      "id": "sample-external-film",
+      "type": "embed",
+      "source": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
+      "title": "Big Buck Bunny",
+      "alt": "",
+      "caption": "Blender Foundation. An external film, played only when you choose.",
+      "tags": [
+        "film",
+        "animation"
+      ],
+      "published": true,
+      "gallery": true,
+      "transcript": ""
+    }
+  ]
+}
