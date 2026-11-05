@@ -1,6 +1,6 @@
 {
-  "title": "Stupid Simple Blogging",
-  "description": "Notes on making things, paying attention, and a slower kind of internet.",
+  "title": "Stupid. Simple. Blogging.",
+  "description": "Blogging should be simple. Stupid simple.",
   "author": "Your name",
   "language": "en",
   "direction": "auto",
@@ -89,6 +89,9 @@
     }
   ],
   "social": [],
+  "background": {
+    "type": "default"
+  },
   "homepage": {
     "mode": "page",
     "slug": "welcome"
