@@ -1,0 +1,29 @@
+# Stupid Simple Blogging
+
+> Notes on making things, paying attention, and a slower kind of internet.
+
+Published reading material. HTML contains static reading text; document alternatives identify their limits.
+
+## Reading and discovery
+
+- [SSB reading manifest](https://abhishekchoudhary.github.io/ssb-demo/reading.json): Version 1; canonical URLs, sections, known metadata and public media descriptions.
+- [Browse published content](https://abhishekchoudhary.github.io/ssb-demo/search/): Static, paginated index.
+- [Gallery](https://abhishekchoudhary.github.io/ssb-demo/gallery/): Published media and supplied transcripts.
+- [RSS](https://abhishekchoudhary.github.io/ssb-demo/rss.xml): Post summaries.
+
+## Pages and posts
+
+- [The long way home](https://abhishekchoudhary.github.io/ssb-demo/blog/the-long-way-home/): A shoreline, a detour, and six seconds of quiet.
+- [A desk with room](https://abhishekchoudhary.github.io/ssb-demo/blog/a-desk-with-room/): An open notebook, one useful question, and a little less clutter.
+- [Four studies in light](https://abhishekchoudhary.github.io/ssb-demo/blog/four-studies-in-light/): The same small palette, four different afternoons.
+- [An afternoon at the movies](https://abhishekchoudhary.github.io/ssb-demo/blog/an-afternoon-at-the-movies/): A little space for someone else’s imagination.
+- [A place to begin](https://abhishekchoudhary.github.io/ssb-demo/blog/a-place-to-begin/): Sample entry: on making a small space for ideas, without needing to know where they lead.
+- [The value of small things](https://abhishekchoudhary.github.io/ssb-demo/blog/the-value-of-small-things/): Sample entry: a notebook, an afternoon walk, and the quiet satisfaction of paying attention.
+- [About this little corner](https://abhishekchoudhary.github.io/ssb-demo/about/): A personal journal, made for reading slowly.
+- [About this sample](https://abhishekchoudhary.github.io/ssb-demo/colophon/): A small tour of what is here, and where to change it.
+- [Daylight](https://abhishekchoudhary.github.io/ssb-demo/daylight/): A collection of drawings and a small film.
+- [A small field guide](https://abhishekchoudhary.github.io/ssb-demo/field-guide/): Three printable pages for a slower afternoon.
+- [A little layout studio](https://abhishekchoudhary.github.io/ssb-demo/layout-studio/): Rows, columns and small HTML tools, with a complete static reading experience.
+- [Now](https://abhishekchoudhary.github.io/ssb-demo/now/): A small snapshot of what has my attention.
+- [A small place for good things.](https://abhishekchoudhary.github.io/ssb-demo/): Field notes, little experiments, and things worth keeping.
+- [Writing room](https://abhishekchoudhary.github.io/ssb-demo/writing-room/): Ten quiet minutes. A blank page. A beginning.
