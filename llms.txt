@@ -1,6 +1,6 @@
-# Stupid Simple Blogging
+# Stupid. Simple. Blogging.
 
-> Notes on making things, paying attention, and a slower kind of internet.
+> Blogging should be simple. Stupid simple.
 
 Published reading material. HTML contains static reading text; document alternatives identify their limits.
 
